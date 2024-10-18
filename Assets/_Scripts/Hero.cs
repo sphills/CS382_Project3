@@ -30,8 +30,7 @@ public class Hero : MonoBehaviour
         Vector3 pos = transform.position;
         pos.x += xAxis * speed * Time.deltaTime;
         pos.y += yAxis * speed * Time.deltaTime;
-        transform.position = pos;
-
-        transform.rotation = Quaternion.Euler(yAxis*pitchMult,xAxis*rollMult,0);
+        
+        transform.SetPositionAndRotation(pos, Quaternion.Euler(yAxis*pitchMult,xAxis*rollMult,0));
     }
 }
