@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Scripts\Hero.cs" />
+    <Compile Include="Assets\_Scripts\BoundsCheck.cs" />
     <Compile Include="Assets\_Scripts\Shield.cs" />
   </ItemGroup>
   <ItemGroup>
